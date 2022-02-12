@@ -34,11 +34,11 @@ const Header = () => {
           <Col md={6} xs={12} className="my-5">
             <div data-aos="fade-right">
               <h1 className="clik">
-                <strong>Access your community in Clik</strong>
+                <strong>Access your local community in Clik</strong>
               </h1>
               <p>
                 {" "}
-                Clik lets you benefit and contribute to your local community -
+                Clik lets you benefit and contribute to your local people -
                 Stay connected!
               </p>
 
