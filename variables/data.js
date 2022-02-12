@@ -13,6 +13,7 @@ export const appData = {
   feed,
   leaf,
   supporters,
+  //foodies,
   target,
   influence,
   allInOne,
