@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -7,16 +7,10 @@ const Footer = () => {
       <div>People make communities and communities make people</div>
       <div>
         <a href="">
-          <FaFacebook color="blue" />
+          <FaLinkedin color="blue" />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/clikplatform/">
           <FaInstagram color="purple" />
-        </a>
-        <a href="">
-          <FaTwitter color="blue" />
-        </a>
-        <a href="">
-          <FaYoutube color="red" />
         </a>
       </div>
     </footer>
