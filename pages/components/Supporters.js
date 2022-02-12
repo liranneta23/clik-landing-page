@@ -13,7 +13,7 @@ const Supporters = () => {
     <article className="bg-wh">
       <Container className="bg-wh">
         <h2 className="text-center pt-5 bolder">Our Supporters</h2>
-        <div data-aos="zoom-in">
+        <div className="flex place-content-center" data-aos="zoom-in">
           <Image
             src={appData.supporters}
             width={1170}
