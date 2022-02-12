@@ -16,7 +16,7 @@ const Supporters = () => {
         <div className="flex place-content-center" data-aos="zoom-in">
           <Image
             src={appData.supporters}
-            width={1170}
+            width={1100}
             height={200}
             objectFit="contain"
             alt="clik supporters"
