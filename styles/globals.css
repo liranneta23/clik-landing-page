@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-pink {
+  background-color: #faf2ea;
+}
+.bg-wh {
+  background-color: rgb(250, 250, 250);
+}
+
+@media (min-width: 769px) {
+  .ph-5-lg {
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.lets-do {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h2 {
+  font-size: 2.5rem !important;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.144);
+}
+.remove-padding {
+  margin-top: -1rem;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+form {
+  padding: 1rem;
+  width: 100%;
+  /* max-width: 514px; */
+  /* height: 58px; */
+}
+input {
+  flex: 3;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: rgb(230, 230, 230);
+  /* height: 58px; */
+}
+button[type="submit"] {
+  flex: 2;
+  padding: 0.5rem 1rem;
+  border: 1px solid #2dc071;
+  background-color: #2dc071;
+  color: white;
+  /* height: 58px; */
+}
+@media (max-width: 480px) {
+  input {
+    width: 100%;
+  }
+  button[type="submit"] {
+    width: 100%;
+  }
+}
+
+.leaf {
+  padding-top: 3rem;
+}
+
+.clik {
+  font-size: 3rem;
+}
+
+.clik + p {
+  font-size: 1.5rem;
+}
+
+.green {
+  background-color: #2dc071;
+}
+
+.why p {
+  color: gray;
+}
+
+.my-card {
+  height: 450px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: auto;
+}
+
+.card-a,
+.card-btn {
+  color: white;
+  padding: 0.4rem;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #2dc071;
+}
+
+.card-a {
+  border: 2px solid white !important;
+  font-size: 1.2rem;
+}
+
+.card-a:hover,
+.card-btn:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.white {
+  color: white;
+}
+
+.grey {
+  color: #737373;
+}
+
+.supporters {
+  border: 1px solid red;
+  background-color: red;
+}
+
+.big {
+  height: 500px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2dc071;
+  color: white;
+  padding: 0.8rem 2rem;
+}
+
+footer div {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+footer div:first-of-type {
+  font-size: 0.8rem;
+}
+
+footer div > * {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .hide-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 481px) {
+  .hide-md {
+    display: none !important;
+  }
+}
+
+video {
+  width: 100%;
+  max-width: 300px;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+.bolder {
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .semi-bold {
+    font-weight: 500;
+  }
+  .bolder {
+    font-weight: 600;
+  }
+}
+
+.share-buttons h3 {
+  width: 100%;
+  text-align: center;
+}
+
+/* .share-buttons {
+  position: fixed;
+  bottom: 0;
+  right: 50%;
+
+  transform: translateX(50%);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 999;
+  background-color: white;
+} */
+
+.share-buttons > * {
+  margin: 0.3rem;
+}
