@@ -15,7 +15,7 @@ const Supporters = () => {
         <h2 className="text-center pt-5 bolder">Our Supporters</h2>
         <div data-aos="zoom-in">
           <Image
-            src="/foodies.PNG"
+            src={appData.supporters}
             width={1170}
             height={200}
             objectFit="contain"
