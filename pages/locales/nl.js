@@ -1,4 +1,4 @@
-export default {
+const nl = {
     hero: 'Dutch dutch local community in Clik',
     subtitle: 'Dutch dutch you benefit and contribute to your locality - Stay connected!',
     waitlistbutton: 'Dutch dutch List',
@@ -9,5 +9,6 @@ export default {
     beta: 'Beta',
     faq: 'FAQ',
     language: 'Language',
-
 }
+
+export default nl;

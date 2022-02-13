@@ -1,4 +1,4 @@
-export default {
+const en = {
     hero: 'Access your local community in Clik',
     subtitle: 'Clik lets you benefit and contribute to your locality - Stay connected!',
     waitlistbutton: 'Join Wait List',
@@ -10,3 +10,5 @@ export default {
     faq: 'FAQ',
     language: 'Language',
 }
+
+export default en;
