@@ -1,6 +1,4 @@
 import Image from "next/image";
-import UseRouter from 'next/router';
-
 import React, { useEffect } from "react";
 import { Col, Container, Form, Row } from "react-bootstrap";
 import { appData } from "../../variables/data";
@@ -9,18 +7,25 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import OurForm from "./OurForm";
 
-import en from "../../public/locales/en";
-import nl from "../../public/locales/nl";
+import {
+  FacebookShareButton,
+  InstapaperShareButton,
+  LinkedinShareButton,
+  TelegramShareButton,
+  TwitterShareButton,
+  WhatsappShareButton,
+  FacebookIcon,
+  InstapaperIcon,
+  LinkedinIcon,
+  TelegramIcon,
+  TwitterIcon,
+  WhatsappIcon,
+} from "react-share";
 
 const Header = () => {
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
-
-  const router = UseRouter();
-  const { locale } = router;
-  const t = locale === 'en' ? en : en;
-
 
   return (
     <header>
@@ -29,15 +34,17 @@ const Header = () => {
           <Col md={6} xs={12} className="my-5">
             <div data-aos="fade-right">
               <h1 className="clik">
-                <strong>{t.hero}</strong>
+                <strong>Access your local community in Clik</strong>
               </h1>
               <p>
-                {t.subtitle}                
+                {" "}
+                Clik lets you benefit and contribute to your locality -
+                Stay connected!
               </p>
 
               <OurForm />
               <Form.Text className="text-muted">
-                {t.soonavailable}
+                Clik will soon be available, join wait list to stay informed
               </Form.Text>
               <br />
               
