@@ -10,20 +10,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import OurForm from "./OurForm";
 
-import {
-  FacebookShareButton,
-  InstapaperShareButton,
-  LinkedinShareButton,
-  TelegramShareButton,
-  TwitterShareButton,
-  WhatsappShareButton,
-  FacebookIcon,
-  InstapaperIcon,
-  LinkedinIcon,
-  TelegramIcon,
-  TwitterIcon,
-  WhatsappIcon,
-} from "react-share";
+import en from "../../public/locales/en";
+import nl from "../../public/locales/nl";
 
 const Header = () => {
   useEffect(() => {
@@ -32,6 +20,8 @@ const Header = () => {
 
   const router = useRouter();
   console.log(router);
+  const {locale} = router;
+  const t = locale === 'en'? en : nl; 
 
 
   return (
@@ -41,7 +31,7 @@ const Header = () => {
           <Col md={6} xs={12} className="my-5">
             <div data-aos="fade-right">
               <h1 className="clik">
-                <strong>Access your local community in Clik</strong>
+                <strong>{t.hero}</strong>
               </h1>
               <p>
                 {" "}
