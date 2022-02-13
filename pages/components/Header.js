@@ -52,7 +52,7 @@ const Header = () => {
           </Col>
           <Col md={(6, { order: "last" })} xs={(12, { order: "first" })}>
             <div data-aos="fade-left">
-              <div className="feed" style={{ marginLeft: "25%" }}>
+              <div className="justify-content-center">
                 {/* <video src={appData.Clik-Feeda}></video> */}
                 <video width={300} muted autoPlay loop>
                   <source src="/Clik-Feed.mp4" type="video/mp4" />
