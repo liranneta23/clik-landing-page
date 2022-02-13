@@ -3,6 +3,9 @@ import React, { useEffect } from "react";
 import { Col, Container, Form, Row } from "react-bootstrap";
 import { appData } from "../../variables/data";
 
+import {useRouter} from 'next/router';
+
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import OurForm from "./OurForm";
@@ -26,6 +29,10 @@ const Header = () => {
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
+
+  const router = useRouter();
+  console.log(router);
+
 
   return (
     <header>
