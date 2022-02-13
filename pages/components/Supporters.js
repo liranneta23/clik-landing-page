@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { appData } from "../../variables/data";
 import AOS from "aos";
 import "aos/dist/aos.css";
