@@ -9,6 +9,8 @@ const en = {
     beta: 'Beta',
     faq: 'FAQ',
     language: 'Language',
+    english: 'English',
+    dutch: 'Dutch',
 }
 
 export default en;

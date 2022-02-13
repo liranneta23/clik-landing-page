@@ -39,29 +39,29 @@ const ClikNav = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ph-5-lg">
             <span className="nav-link semi-bold">
-              <Link href="/">Home</Link>
+              <Link href="/">{t.home}</Link>
             </span>
 
             <span className="nav-link semi-bold">
-              <Link href="#why">Why</Link>
+              <Link href="#why">{t.why}</Link>
             </span>
 
             <span className="nav-link semi-bold">
-              <Link href="#contact">Contact</Link>
+              <Link href="#contact">{t.contact}</Link>
             </span>
 
             <span className="nav-link semi-bold">
-              <Link href="#beta">Beta</Link>
+              <Link href="#beta">{t.beta}</Link>
             </span>
 
             <span className="nav-link semi-bold">
-              <Link href="#faq">FAQ</Link>
+              <Link href="#faq">{t.faq}</Link>
             </span>
           </Nav>
           <Nav>
-            <NavDropdown title="Language" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/en">English</NavDropdown.Item>
-              <NavDropdown.Item href="/nl">Dutch</NavDropdown.Item>
+            <NavDropdown title={t.language} id="basic-nav-dropdown">
+              <NavDropdown.Item href="/en">{t.english}</NavDropdown.Item>
+              <NavDropdown.Item href="/nl">{t.dutch}</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

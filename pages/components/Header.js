@@ -34,14 +34,12 @@ const Header = () => {
                 <strong>{t.hero}</strong>
               </h1>
               <p>
-                {" "}
-                Clik lets you benefit and contribute to your locality -
-                Stay connected!
+                {t.subtitle}                
               </p>
 
               <OurForm />
               <Form.Text className="text-muted">
-                Clik will soon be available, join wait list to stay informed
+                {t.soonavailable}
               </Form.Text>
               <br />
               

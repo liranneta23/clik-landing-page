@@ -1,14 +1,16 @@
 const nl = {
-    hero: 'Dutch dutch local community in Clik',
-    subtitle: 'Dutch dutch you benefit and contribute to your locality - Stay connected!',
-    waitlistbutton: 'Dutch dutch List',
-    soonavailable: 'Dutch dutch soon be available, join wait list to stay informed',
+    hero: 'Toegang tot uw lokale gemeenschap in Clik',
+    subtitle: 'Met Clik kunt u profiteren van en bijdragen aan uw omgeving - Blijf verbonden!',
+    waitlistbutton: 'Aanmelden wachtlijst',
+    soonavailable: 'Clik is binnenkort beschikbaar, schrijf je in op de wachtlijst om op de hoogte te blijven',
     home: 'Huis',
     why: 'Waroom',
     contact: 'Contact',
     beta: 'Beta',
     faq: 'FAQ',
-    language: 'Language',
+    language: 'Taal',
+    english: 'Engels',
+    dutch: 'Nederlands',
 }
 
 export default nl;
