@@ -13,7 +13,7 @@ const Supporters = () => {
     <article className="bg-wh">
       <Container className="bg-wh">
         <h2 className="text-center pt-5 bolder">Our Supporters</h2>
-        <div className="flex place-content-center" data-aos="zoom-in">
+        <Row className="justify-content-center" data-aos="zoom-in">
           <Image
             src={appData.supporters}
             width={1100}
@@ -21,7 +21,7 @@ const Supporters = () => {
             objectFit="contain"
             alt="clik supporters"
           />
-        </div>
+        </Row>
       </Container>
     </article>
   );
