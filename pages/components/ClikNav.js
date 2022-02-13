@@ -1,11 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
+import {useRouter} from 'next/router';
+
 import React from "react";
 import { Container, Nav, Navbar, NavDropdown, Row } from "react-bootstrap";
 
 import { appData } from "../../variables/data";
 
 const ClikNav = () => {
+
+  const router = useRouter();
+  console.log(router);
+  const {locale} = router;
+  const t = locale === 'en'? en : nl; 
+
+
   return (
     <Navbar bg="bg-pink" expand="lg" collapseOnSelect>
       <Container>
@@ -48,7 +57,7 @@ const ClikNav = () => {
           <Nav>
             <NavDropdown title="Language" id="basic-nav-dropdown">
               <NavDropdown.Item href="/en">English</NavDropdown.Item>
-              <NavDropdown.Item href="/nl">English</NavDropdown.Item>
+              <NavDropdown.Item href="/nl">Dutch</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
