@@ -12,7 +12,14 @@ import LetsDo from "./components/LetsDo";
 import Supporters from "./components/Supporters";
 import Why from "./components/Why";
 
+import en from "../public/locales/en";
+
+
 export default function Home() {
+  const router = UseRouter();
+  const { locale } = router;
+  const t = locale === 'en' ? en : en;
+
   return (
     <SSRProvider>
       <div>
