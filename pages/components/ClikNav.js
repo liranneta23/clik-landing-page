@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import UseRouter from 'next/router'; 
+import { UseRouter } from 'next/router';
+
 
 import React from "react";
 import { Container, Nav, Navbar, NavDropdown, Row } from "react-bootstrap";

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import UseRouter from 'next/router'; 
+import { UseRouter } from 'next/router';
 
 import React, { useEffect } from "react";
 import { Col, Container, Form, Row } from "react-bootstrap";
