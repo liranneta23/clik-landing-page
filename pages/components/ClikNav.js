@@ -47,7 +47,7 @@ const ClikNav = () => {
           </Nav>
           <Nav>
             <NavDropdown title="Language" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/">English</NavDropdown.Item>
+              <NavDropdown.Item href="/en">English</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
