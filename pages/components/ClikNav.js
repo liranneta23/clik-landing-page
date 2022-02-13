@@ -7,6 +7,10 @@ import { Container, Nav, Navbar, NavDropdown, Row } from "react-bootstrap";
 
 import { appData } from "../../variables/data";
 
+import en from "../../public/locales/en";
+import nl from "../../public/locales/nl";
+
+
 const ClikNav = () => {
 
   const router = useRouter();
