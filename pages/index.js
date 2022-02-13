@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { UseRouter } from 'next/router';
+import UseRouter from 'next/router';
 
 import { SSRProvider } from "react-bootstrap";
 import { appData } from "../variables/data";

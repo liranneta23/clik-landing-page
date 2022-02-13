@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { UseRouter } from 'next/router';
+import UseRouter from 'next/router';
 
 
 import React from "react";
@@ -17,10 +17,6 @@ const ClikNav = () => {
   const { locale } = router;
   const t = locale === 'en' ? en : nl;
 
-  const changeLanguage = (e) => {
-    const locale = e.target.value;
-    router.push('/', '/', {locale});
-  }
 
   return (
     <Navbar bg="bg-pink" expand="lg" collapseOnSelect>
