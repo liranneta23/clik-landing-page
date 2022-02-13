@@ -38,7 +38,7 @@ const Header = () => {
               </h1>
               <p>
                 {" "}
-                Clik lets you benefit and contribute to your local people -
+                Clik lets you benefit and contribute to your locality -
                 Stay connected!
               </p>
 
