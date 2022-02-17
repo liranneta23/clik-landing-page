@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     if (isExists) {
       return res
         .status(400)
-        .json({ message: "Email already added to our wish list!" });
+        .json({ message: "Email already added to our wait list!" });
     }
 
     const createEmail = await EmailModel.create({ email });
