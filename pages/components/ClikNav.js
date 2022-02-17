@@ -58,12 +58,14 @@ const ClikNav = () => {
               <Link href="#faq">{t.faq}</Link>
             </span>
           </Nav>
+          {/*
           <Nav>
             <NavDropdown title={t.language} id="basic-nav-dropdown">
               <NavDropdown.Item href="/en">{t.english}</NavDropdown.Item>
               <NavDropdown.Item href="/nl">{t.dutch}</NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          */}
         </Navbar.Collapse>
         {/* </Row> */}
       </Container>
