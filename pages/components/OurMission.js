@@ -14,7 +14,7 @@ const OurMission = () => {
         <h2 className="text-center pt-5 bolder">Our Mission</h2>
         <p className="justify-content-center italic-style semi-bold" data-aos="zoom-in">
           We will always strive to create better connected communities <br />
-          Where individuals feel a strong sense of belonging
+          Where individuals feel a strong sense of belonging <br /> 
         </p>
       </Container>
     </article>
