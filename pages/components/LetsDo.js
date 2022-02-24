@@ -7,7 +7,7 @@ const LetsDo = () => {
     <article className="lets-do text-center">
       <h2 className="bolder">Let&apos;s do it together</h2>
       <p className="remove-padding">
-        Clik is a platform made by the people. <br />
+        Clik is a platform made by the people <br />
         We need you to help us test the beta version before launch
       </p>
       <div>

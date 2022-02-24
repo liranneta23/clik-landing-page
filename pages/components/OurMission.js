@@ -10,12 +10,12 @@ const OurMission = () => {
   }, []);
   return (
     <article className="bg-wh">
-      <Container className="bg-wh">
+      <Container className="py-3 text-center">
         <h2 className="text-center pt-5 bolder">Our Mission</h2>
-        <Row className="justify-content-center italic-style semi-bold" data-aos="zoom-in">
+        <p className="justify-content-center italic-style semi-bold" data-aos="zoom-in">
           We will always strive to create better connected communities <br />
           Where individuals feel a strong sense of belonging
-        </Row>
+        </p>
       </Container>
     </article>
   );
