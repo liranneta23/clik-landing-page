@@ -8,6 +8,13 @@ const FAQ = () => {
         <h2 className="text-center">FAQs</h2>
         <Accordion defaultActiveKey="0" flush className="py-3">
           <Accordion.Item eventKey="0">
+            <Accordion.Header>Our mission</Accordion.Header>
+            <Accordion.Body>
+            We will always strive to create better connected communities. Where individuals feel a strong sense of belonging .
+            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="1">
             <Accordion.Header>What is Clik?</Accordion.Header>
             <Accordion.Body>
             Clik is a community driven platform that initiates social interactivity by keeping you updated 
@@ -17,7 +24,7 @@ const FAQ = () => {
             Let your voice be heard in the local feedback feed. 
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1">
+          <Accordion.Item eventKey="2">
             <Accordion.Header>How does Clik work?</Accordion.Header>
             <Accordion.Body>
             Clik operates on a simple principle: The more people use the app, 
@@ -28,7 +35,7 @@ const FAQ = () => {
 
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="2">
+          <Accordion.Item eventKey="3">
             <Accordion.Header>How can Clik help you?</Accordion.Header>
             <Accordion.Body>
             Socializing should not require hard effort. Finding out about your community should not result in 
