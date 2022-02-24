@@ -7,7 +7,7 @@ import FAQ from "./components/FAQ";
 
 import GetInTouch from "./components/GetInTouch";
 import Header from "./components/Header";
-
+import OurMission from "./components/OurMission";
 import LetsDo from "./components/LetsDo";
 import Supporters from "./components/Supporters";
 import Why from "./components/Why";
@@ -55,6 +55,7 @@ export default function Home() {
 
           <Supporters />
           <Why />
+          <OurMission />
           <GetInTouch />
           <LetsDo />
           <FAQ />
