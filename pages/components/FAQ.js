@@ -8,7 +8,7 @@ const FAQ = () => {
         <h2 className="text-center">FAQs</h2>
         <Accordion defaultActiveKey="0" flush className="py-3">
           <Accordion.Item eventKey="0">
-            <Accordion.Header>Our mission</Accordion.Header>
+            <Accordion.Header>Our mission?</Accordion.Header>
             <Accordion.Body>
             We will always strive to create better connected communities. Where individuals feel a strong sense of belonging .
             </Accordion.Body>
