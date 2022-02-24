@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-
 
 html,
 body {
@@ -242,6 +240,6 @@ video {
 }
 
 .italic-style {
-  font-family: "Montserrat:ital", sans-serif !important;
+  font-style: 'italic';
   font-size: 1.5rem;
 }
