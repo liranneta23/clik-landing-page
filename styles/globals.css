@@ -238,3 +238,9 @@ video {
 .share-buttons > * {
   margin: 0.3rem;
 }
+
+.italic-style {
+  text-align: 'center';
+  font-style: 'italic';
+  font-size: 1.5rem;
+}
