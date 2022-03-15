@@ -19,7 +19,7 @@ const FAQ = () => {
             <Accordion.Body>
             Clik is a community driven platform that initiates social interactivity by keeping you updated 
             and connected to the happenings in your locality. By highlighting what matters to you, you won&apos;t
-            miss out on important events, marketplace and job listings and much more.
+            miss out on important events, meetups, job listings and much more.
             Do you want to see changes or seek support for your ideas in your neighborhood? 
             Let your voice be heard in the local feedback feed. 
             </Accordion.Body>
