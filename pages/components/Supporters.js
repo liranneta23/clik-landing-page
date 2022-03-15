@@ -16,14 +16,14 @@ const Supporters = () => {
         <Row className="justify-content-center" data-aos="zoom-in">
           <Image
             src={appData.supporters}
-            width={1100}
+            width={200}
             height={200}
             objectFit="contain"
             alt="clik supporters"
           />
           <Image
           src={appData.ohmygrill}
-          width={1100}
+          width={200}
           height={200}
           objectFit="contain"
           alt="clik supporters"
