@@ -72,12 +72,12 @@ const GetInTouch = () => {
     <Container className="py-5" id="contact">
       <h2 className="text-center bolder">Get In Touch</h2>
       <Row className="justify-content-center align-items-center">
-        <Col md={4}>
+        {/*<Col md={4}>
           <article className="my-card bg-pink" data-aos="fade-right">
             <HiLightBulb size={75} color="black" />
             <address className="my-3">support@clikplatform.nl</address>
 
-            {/* <Button
+            <Button
               className="text-white card-btn"
               variant="success"
               onClick={() => {
@@ -86,23 +86,25 @@ const GetInTouch = () => {
               }}
             >
               Get Support
-            </Button> */}
+            </Button>
           </article>
-        </Col>
+        </Col> */}
         <Col md={4}>
           <article className="my-card green big" data-aos="zoom-in">
             <BsFillPeopleFill size={75} color="white" />
-            <address className="white my-2"> joinus@clikplatform.nl</address>
+            <span>If you'd like to join the team or if you have any suggestions or advice, feel free to email us!</span>
+            <address className="white my-2"> info@clikplatform.nl</address>
             {/* <span className="text-white card-a ">
               <Link href="#get-in-touch">Join The Team</Link>
             </span> */}
           </article>
         </Col>
+        {/*
         <Col md={4}>
           <article className="my-card bg-pink" data-aos="fade-left">
             <HiLightBulb size={75} color="black" />
             <address className="my-3">contact@clikplatform.nl</address>
-            {/* <Button
+            <Button
               variant="success"
               className="text-white card-btn"
               onClick={() => {
@@ -111,9 +113,9 @@ const GetInTouch = () => {
               }}
             >
               Ask a question
-            </Button> */}
+            </Button>
           </article>
-        </Col>
+            </Col> */}
         <Offcanvas show={show} onHide={handleClose}>
           <Offcanvas.Header closeButton>
             <Offcanvas.Title>Send us an Email</Offcanvas.Title>
