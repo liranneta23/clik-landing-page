@@ -60,6 +60,11 @@ h2 {
   margin-top: -1rem;
 }
 
+.tiny-padding {
+  margin-top: 21rem;
+}
+
+
 a {
   color: inherit !important;
   text-decoration: none !important;

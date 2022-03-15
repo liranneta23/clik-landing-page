@@ -92,7 +92,7 @@ const GetInTouch = () => {
         <Col md={4}>
           <article className="my-card green big" data-aos="zoom-in">
             <BsFillPeopleFill size={75} color="white" />
-            <h3 className="text-white card-a bolder ">If you&apos;d like to join the team or if you have any suggestions or advice, feel free to email us!</h3>
+            <p className="tiny-padding text-white text-center bolder">If you&apos;d like to join the team or if you have any suggestions or advice, feel free to email us!</p>
             <h3><address className="white my-2"> info@clikplatform.nl</address></h3>            
             {/* <span className="text-white card-a ">
               <Link href="#get-in-touch">Join The Team</Link>
