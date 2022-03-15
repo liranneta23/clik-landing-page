@@ -53,9 +53,9 @@ export default function Home() {
             <Header />
           </div>
 
-          <Supporters />
-          <Why />
           <OurMission />
+          <Why />
+          <Supporters />
           <GetInTouch />
           <LetsDo />
           <FAQ />
