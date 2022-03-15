@@ -6,9 +6,9 @@ const Footer = () => {
     <footer>
       <div>People make communities and communities make people</div>
       <div>
-        <a href="">
+        {/*<a href="">
           <FaLinkedin color="blue" />
-        </a>
+        </a>*/}
         <a href="https://www.instagram.com/clikplatform/">
           <FaInstagram color="purple" />
         </a>
