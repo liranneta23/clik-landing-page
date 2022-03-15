@@ -21,6 +21,13 @@ const Supporters = () => {
             objectFit="contain"
             alt="clik supporters"
           />
+          <Image
+          src={appData.ohmygrill}
+          width={1100}
+          height={200}
+          objectFit="contain"
+          alt="clik supporters"
+          />
         </Row>
       </Container>
     </article>
