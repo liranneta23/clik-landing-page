@@ -9,7 +9,7 @@ const Footer = () => {
         {/*<a href="">
           <FaLinkedin color="blue" />
         </a>*/}
-        <a href="https://www.instagram.com/clikplatform/">
+        <a href="https://www.instagram.com/clikplatform/" target="_blank" rel="noopener noreferrer">
           <FaInstagram color="purple" />
         </a>
       </div>
