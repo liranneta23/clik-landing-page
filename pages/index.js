@@ -57,7 +57,7 @@ export default function Home() {
           <Why />
           <Supporters />
           <GetInTouch />
-          <LetsDo />
+          {/*<LetsDo />*/}
           <FAQ />
         </main>
       </div>

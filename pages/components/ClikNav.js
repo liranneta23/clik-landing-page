@@ -49,11 +49,11 @@ const ClikNav = () => {
             <span className="nav-link semi-bold">
               <Link href="#contact">{t.contact}</Link>
             </span>
-
+            {/*
             <span className="nav-link semi-bold">
               <Link href="#beta">{t.beta}</Link>
             </span>
-
+           */}
             <span className="nav-link semi-bold">
               <Link href="#faq">{t.faq}</Link>
             </span>
