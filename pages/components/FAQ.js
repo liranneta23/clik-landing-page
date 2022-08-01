@@ -19,9 +19,9 @@ const FAQ = () => {
             <Accordion.Body>
             Clik is a community driven platform that initiates social interactivity by keeping you updated 
             and connected to the happenings in your locality. By highlighting what matters to you, you won&apos;t
-            miss out on important events, meetups, job listings and much more.
-            Do you want to see changes or seek support for your ideas in your neighborhood? 
-            Let your voice be heard in the local feedback feed. 
+            miss out on important events in your locality.
+            Do you want to see changes, share funny stories or seek support for your ideas in your neighborhood? 
+            Let your voice be heard in the "What's Up" feed.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
@@ -30,9 +30,8 @@ const FAQ = () => {
             Clik operates on a simple principle: The more people use the app, 
             the more activities and items will be displayed on the main feed.
             The mainfeed is customizable based on user preferences.
-            Thus, Clik relies on citizens like you, to update respective listings to the app.
+            Thus, Clik relies on citizens like you, to bring more events onto the app.
             The more input, the more relevant the activities and items!
-
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
@@ -40,8 +39,7 @@ const FAQ = () => {
             <Accordion.Body>
             Socializing should not require hard effort. Finding out about your community should not result in 
             full blown research. Therefore, Clik is the medium that seamlessly allows you to connect to individuals, 
-            resources and activities within your community. 
-
+            resources and activities within your community.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
