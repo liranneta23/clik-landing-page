@@ -34,7 +34,7 @@ const Header = () => {
                 <strong>{t.hero}</strong>
               </h1>
               <p>
-                On Clik you can find out the events in Enschede that <strong>matter to you</strong> - Stay connected!
+                
               </p>
 
               <OurForm />
