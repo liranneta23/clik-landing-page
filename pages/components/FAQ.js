@@ -21,7 +21,8 @@ const FAQ = () => {
             and connected to the happenings in your locality. By highlighting what matters to you, you won&apos;t
             miss out on important events in your locality.
             Do you want to see changes, share funny stories or seek support for your ideas in your neighborhood? 
-            Let your voice be heard in the "What's Up" feed.
+            Let your voice be heard in the Whats Up feed.
+
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
@@ -32,6 +33,7 @@ const FAQ = () => {
             The mainfeed is customizable based on user preferences.
             Thus, Clik relies on citizens like you, to bring more events onto the app.
             The more input, the more relevant the activities and items!
+
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
@@ -40,6 +42,7 @@ const FAQ = () => {
             Socializing should not require hard effort. Finding out about your community should not result in 
             full blown research. Therefore, Clik is the medium that seamlessly allows you to connect to individuals, 
             resources and activities within your community.
+
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
