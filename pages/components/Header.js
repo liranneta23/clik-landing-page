@@ -50,7 +50,7 @@ const Header = () => {
               <div className="justify-content-center">
                 {/* <video src={appData.Clik-Feeda}></video> */}
                 <video width={300} muted autoPlay loop>
-                  <source src="/Clik-Feed.mp4" type="video/mp4" />
+                  <source src="/Clik-Feed-New.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
