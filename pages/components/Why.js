@@ -28,17 +28,16 @@ const Why = () => {
             </div>
 
             <h4>Relevance</h4>
-            <p>Get notified by activities and items that matter to you</p>
+            <p>Find activities and items that match your interest</p>
           </Col>
           <Col xs={12} md={4} className="py-3">
             <div data-aos="zoom-in">
 				<Image src={appData.allInOne} width={64} height={64} alt="" />
             </div>
-            <h4>All in one</h4>
+            <h4>Closer to community</h4>
             <p>
-              Benefit from, and add to the strengths of your local community via
-              the marketplace, events, services, volunteering, donations, jobs,
-              and accomodation listings
+              Benefit from, and add to the strengths of your local community
+              by finding and posting events on Clik
             </p>
           </Col>
           <Col xs={12} md={4} className="py-3">
@@ -48,7 +47,7 @@ const Why = () => {
             <h4>Influence</h4>
             <p>
               Impact change by sharing your thoughts about your community in the
-              local feedback feed
+              Whats-Up feed
             </p>
           </Col>
         </Row>
