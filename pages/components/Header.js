@@ -48,7 +48,7 @@ const Header = () => {
              */}
              
               <Link href="https://clik-app.glideapp.io/">
-                <a>Click here to view and install the app</a>
+                <a>Click <strong>here</strong> to view and install the app</a>
               </Link>
              
             </div>
