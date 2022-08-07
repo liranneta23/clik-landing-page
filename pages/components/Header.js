@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
+import Link from "next/link";
+
 import { Col, Container, Form, Row } from "react-bootstrap";
 import { appData } from "../../variables/data";
 
