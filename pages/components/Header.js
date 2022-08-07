@@ -44,9 +44,11 @@ const Header = () => {
               </Form.Text>
               <br />
              */}
-             <p>
-                https://clik-app.glideapp.io/
-             </p>
+             
+              <Link href="https://clik-app.glideapp.io/">
+                <a>Click here to view & install the app</a>
+              </Link>
+             
             </div>
           </Col>
           <Col md={(6, { order: "last" })} xs={(12, { order: "first" })}>
