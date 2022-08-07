@@ -37,12 +37,16 @@ const Header = () => {
                 On Clik you can find out the events in Enschede that <strong>matter to you</strong> - Stay connected!
               </p>
 
+              {/*
               <OurForm />
               <Form.Text className="text-muted">
                 {t.soonavailable}
               </Form.Text>
               <br />
-              
+             */}
+             <p>
+                https://clik-app.glideapp.io/
+             </p>
             </div>
           </Col>
           <Col md={(6, { order: "last" })} xs={(12, { order: "first" })}>
