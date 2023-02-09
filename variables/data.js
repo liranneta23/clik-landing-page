@@ -17,7 +17,7 @@ export const appData = {
   target,
   influence,
   allInOne,
-  companyName: "Lorem ipSum",
+  companyName: "Clik",
   url: "clikplatform.nl",
   twitter: "@clik",
   formUrl: "https://clikplatform.nl",
