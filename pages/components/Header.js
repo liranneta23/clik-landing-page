@@ -99,8 +99,8 @@ const Header = () => {
             <div data-aos="fade-left">
               <div className="justify-content-center">
                 {/* <video src={appData.Clik-Feeda}></video> */}
-                <video width={250} muted autoPlay loop>
-                  <source src="/Clik-Feed-Glide.mp4" type="video/mp4" />
+                <video style={{maxWidth: "300px", width: "50%"}} muted autoPlay loop>
+                  <source src="/Clik-Feed-ReactNative.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
