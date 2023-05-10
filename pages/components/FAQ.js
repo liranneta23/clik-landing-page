@@ -26,20 +26,18 @@ const FAQ = () => {
           <Accordion.Item eventKey="2">
             <Accordion.Header>How does Clik work?</Accordion.Header>
             <Accordion.Body>
-            Clik operates on a simple principle: The more people use the app, 
-            the more activities and items will be displayed on the Events feed.
-            The feed is customizable based on user preferences.
-            Thus, Clik relies on citizens like you, to bring more events onto the app.
-            The more input, the more relevant the activities and items!
+            Clik's makes it possible for expats to post and share expat-friendly events, 
+            while also enabling established event organizations and companies to post their events on our platform. 
+            Browse and search for events based on your interests, location, and availability, 
+            and start connecting with others in your local area.
 
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
             <Accordion.Header>How can Clik help you?</Accordion.Header>
             <Accordion.Body>
-            Socializing should not require hard effort. Finding out about your community should not result in 
-            full blown research. Therefore, Clik is the medium that seamlessly allows you to connect to individuals, 
-            resources and activities within your community.
+            Socializing should not require hard effort. Finding out about your community should not result in full blown research.
+            Therefore, Clik is the medium that seamlessly allows you to connect with like-minded people within your community
 
             </Accordion.Body>
           </Accordion.Item>
