@@ -51,7 +51,7 @@ const Header = () => {
                 <Link href="https://play.google.com/store/apps/details?id=com.clik.platform">
                   <a> <strong>Play Store</strong></a>
                 </Link>
-                and 
+                 and 
                 <Link href="https://apps.apple.com/app/clik/id1659726779">
                   <a> <strong>App Store</strong></a>
                 </Link>              
