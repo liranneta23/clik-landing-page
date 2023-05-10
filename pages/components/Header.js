@@ -75,7 +75,7 @@ const Header = () => {
                 <a>
                   <Image
                     src={appData.getOnPlayStore}
-                    width={downloadButtonWidth}
+                    width={120}
                     height={80}
                     objectFit="contain"
                   />
@@ -87,7 +87,7 @@ const Header = () => {
                   <Image
                     src={appData.downloadOnAppStore}
                     width={downloadButtonWidth}
-                    height={80}
+                    height={120}
                     objectFit="contain"
                   />
                 </a>
@@ -99,7 +99,7 @@ const Header = () => {
             <div data-aos="fade-left" style={{ marginLeft: '20px' }}>
               <div className="justify-content-center">
                 {/* <video src={appData.Clik-Feeda}></video> */}
-                <video width={videoWidth} muted autoPlay loop objectFit="contain">
+                <video width={250} muted autoPlay loop objectFit="contain">
                   <source src="/Clik-Feed-ReactNative.mp4" type="video/mp4" />
                 </video>
               </div>
