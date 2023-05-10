@@ -51,21 +51,19 @@ const Header = () => {
                 <a>
                   <Image
                     src={appData.getOnPlayStore}
-                    width={135}
-                    height={80}
+                    width={145}
+                    height={100}
                     objectFit="contain"
                   />
                 </a>
               </Link>
 
-              <div/> {/*Add a newline*/}
-
               <Link href="https://apps.apple.com/app/clik/id1659726779">
                 <a>
                   <Image
                     src={appData.downloadOnAppStore}
-                    width={135}
-                    height={80}
+                    width={145}
+                    height={100}
                     objectFit="contain"
                   />
                 </a>
