@@ -86,8 +86,8 @@ const Header = () => {
                 <a style={{ marginLeft: '10px' }}>
                   <Image
                     src={appData.downloadOnAppStore}
-                    width={downloadButtonWidth}
-                    height={120}
+                    width={120}
+                    height={80}
                     objectFit="contain"
                   />
                 </a>
