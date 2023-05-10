@@ -98,7 +98,7 @@ const Header = () => {
           <Col md={(6, { order: "last" })} xs={(12, { order: "first" })}>
             <div data-aos="fade-left">
               <div className="justify-content-center">
-                <video controls style={{maxWidth: "300px", width: "100%"}} muted autoPlay loop>
+                <video controls style={{maxWidth: "300px", width: "100%", objectFit: "contain"}} muted autoPlay loop >
                   <source src="/Clik-Feed-ReactNative.mp4" type="video/mp4" />
                   <source src="/Clik-Feed-ReactNative.webm" type="video/webm" />
                   <p>
