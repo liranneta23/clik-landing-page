@@ -51,8 +51,8 @@ const Header = () => {
                 <a>
                   <Image
                     src={appData.getOnPlayStore}
-                    width={145}
-                    height={100}
+                    width={135}
+                    height={80}
                     objectFit="contain"
                   />
                 </a>
@@ -62,8 +62,8 @@ const Header = () => {
                 <a style={{ marginLeft: '10px' }}>
                   <Image
                     src={appData.downloadOnAppStore}
-                    width={145}
-                    height={100}
+                    width={135}
+                    height={80}
                     objectFit="contain"
                   />
                 </a>
