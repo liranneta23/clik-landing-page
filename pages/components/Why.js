@@ -28,7 +28,7 @@ const Why = () => {
             </div>
 
             <h4>Relevance</h4>
-            <p>Find activities and items that match your interest</p>
+            <p>Find events that match your interest</p>
           </Col>
           <Col xs={12} md={4} className="py-3">
             <div data-aos="zoom-in">
@@ -46,8 +46,7 @@ const Why = () => {
             </div>
             <h4>Influence</h4>
             <p>
-              Impact change by sharing your thoughts about your community in the
-              Whats-Up feed
+              Impact change by sharing your thoughts, questions and experience on the "Event Stories" feed
             </p>
           </Col>
         </Row>

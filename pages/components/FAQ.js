@@ -17,12 +17,10 @@ const FAQ = () => {
           <Accordion.Item eventKey="1">
             <Accordion.Header>What is Clik?</Accordion.Header>
             <Accordion.Body>
-            Clik is a community driven platform that initiates social interactivity by keeping you updated 
-            and connected to the happenings in your locality. By highlighting what matters to you, you won&apos;t
-            miss out on important events in your locality.
-            Do you want to see changes, share funny stories or seek support for your ideas in your neighborhood? 
-            Let your voice be heard in the Whats Up feed.
-
+            Clik is a community-driven platform that can help you find events and activities that align with your interests, 
+            and even make it easier to meet new people in your new home. With the "Event Stories" feed, you can anonymously share your experiences, 
+            seek advice or support, and connect with other members of the community. 
+            Using Clik can help you feel more connected to your new neighbourhood and feel more at home in your new surroundings.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
