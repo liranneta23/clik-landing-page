@@ -38,10 +38,10 @@ const Header = () => {
   }, []);
 
   const maxVideoWidth = 300;
-  const videoWidth = Math.min(maxVideoWidth, windowWidth * 0.6);
+  const videoWidth = Math.min(maxVideoWidth, screenDimensions.width * 0.6);
 
   const maxDownloadButtonWidth = 300;
-  const downloadButtonWidth = Math.min(maxDownloadButtonWidth, windowWidth * 0.1);
+  const downloadButtonWidth = Math.min(maxDownloadButtonWidth, screenDimensions.width * 0.1);
 
   const router = useRouter();
   console.log(router);
