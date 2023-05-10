@@ -1,4 +1,4 @@
-import logo from "../public/logo.png";
+import logo from "../public/Clik-Logo.jpg";
 import feed from "../public/feed.PNG";
 import leaf from "../public/leaf.PNG";
 import supporters from "../public/supporters.PNG";
