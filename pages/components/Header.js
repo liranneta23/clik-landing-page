@@ -59,7 +59,7 @@ const Header = () => {
               </Link>
 
               <Link href="https://apps.apple.com/app/clik/id1659726779">
-                <a>
+                <a style={{ marginLeft: '10px' }}>
                   <Image
                     src={appData.downloadOnAppStore}
                     width={145}
