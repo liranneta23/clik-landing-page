@@ -26,7 +26,7 @@ const FAQ = () => {
           <Accordion.Item eventKey="2">
             <Accordion.Header>How does Clik work?</Accordion.Header>
             <Accordion.Body>
-            Clik's makes it possible for expats to post and share expat-friendly events, 
+            Clik makes it possible for community builders to post and share events, 
             while also enabling established event organizations and companies to post their events on our platform. 
             Browse and search for events based on your interests, location, and availability, 
             and start connecting with others in your local area.
