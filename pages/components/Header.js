@@ -58,7 +58,7 @@ const Header = () => {
                 </a>
               </Link>
 
-              </div> {/*Add a newline*/}
+              <div/> {/*Add a newline*/}
 
               <Link href="https://apps.apple.com/app/clik/id1659726779">
                 <a>
@@ -69,9 +69,7 @@ const Header = () => {
                     objectFit="contain"
                   />
                 </a>
-              </Link>
-
-     
+              </Link>     
              
             </div>
           </Col>
