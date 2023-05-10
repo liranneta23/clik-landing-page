@@ -98,9 +98,12 @@ const Header = () => {
           <Col md={(6, { order: "last" })} xs={(12, { order: "first" })}>
             <div data-aos="fade-left">
               <div className="justify-content-center">
-                {/* <video src={appData.Clik-Feeda}></video> */}
                 <video style={{maxWidth: "300px", width: "100%"}} muted autoPlay loop>
                   <source src="/Clik-Feed-ReactNative.mp4" type="video/mp4" />
+                  <p>
+                    Your browser doesn't support HTML video. Here is a
+                    <a href="/Clik-Feed-ReactNative.mp4">link to the app demonstration</a> instead.
+                  </p>
                 </video>
               </div>
             </div>
