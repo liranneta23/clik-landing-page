@@ -27,8 +27,8 @@ const FAQ = () => {
             <Accordion.Header>How does Clik work?</Accordion.Header>
             <Accordion.Body>
             Clik operates on a simple principle: The more people use the app, 
-            the more activities and items will be displayed on the main feed.
-            The mainfeed is customizable based on user preferences.
+            the more activities and items will be displayed on the Events feed.
+            The feed is customizable based on user preferences.
             Thus, Clik relies on citizens like you, to bring more events onto the app.
             The more input, the more relevant the activities and items!
 
