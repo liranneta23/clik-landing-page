@@ -37,6 +37,12 @@ const Header = () => {
 
   }, []);
 
+  const maxVideoWidth = 300;
+  const videoWidth = Math.min(maxVideoWidth, windowWidth * 0.6);
+
+  const maxDownloadButtonWidth = 300;
+  const downloadButtonWidth = Math.min(maxDownloadButtonWidth, windowWidth * 0.1);
+
   const router = useRouter();
   console.log(router);
   console.log(screenDimensions);
@@ -69,7 +75,7 @@ const Header = () => {
                 <a>
                   <Image
                     src={appData.getOnPlayStore}
-                    width={135}
+                    width={downloadButtonWidth}
                     height={80}
                     objectFit="contain"
                   />
@@ -80,7 +86,7 @@ const Header = () => {
                 <a style={{ marginLeft: '10px' }}>
                   <Image
                     src={appData.downloadOnAppStore}
-                    width={135}
+                    width={downloadButtonWidth}
                     height={80}
                     objectFit="contain"
                   />
@@ -93,7 +99,7 @@ const Header = () => {
             <div data-aos="fade-left" style={{ marginLeft: '20px' }}>
               <div className="justify-content-center">
                 {/* <video src={appData.Clik-Feeda}></video> */}
-                <video width={300} muted autoPlay loop objectFit="contain">
+                <video width={videoWidth} muted autoPlay loop objectFit="contain">
                   <source src="/Clik-Feed-ReactNative.mp4" type="video/mp4" />
                 </video>
               </div>
