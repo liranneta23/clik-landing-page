@@ -46,7 +46,7 @@ const Why = () => {
             </div>
             <h4>Influence</h4>
             <p>
-              Impact change by sharing your thoughts, questions and experience on the "Event Stories" feed
+              Impact change by sharing your thoughts, questions and experience on the Event Stories feed
             </p>
           </Col>
         </Row>

@@ -18,7 +18,7 @@ const FAQ = () => {
             <Accordion.Header>What is Clik?</Accordion.Header>
             <Accordion.Body>
             Clik is a community-driven platform that can help you find events and activities that align with your interests, 
-            and even make it easier to meet new people in your new home. With the "Event Stories" feed, you can anonymously share your experiences, 
+            and even make it easier to meet new people in your new home. With the Event Stories feed, you can anonymously share your experiences, 
             seek advice or support, and connect with other members of the community. 
             Using Clik can help you feel more connected to your new neighbourhood and feel more at home in your new surroundings.
             </Accordion.Body>
