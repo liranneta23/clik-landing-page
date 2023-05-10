@@ -96,7 +96,7 @@ const Header = () => {
             </div>
           </Col>
           <Col md={(6, { order: "last" })} xs={(12, { order: "first" })}>
-            <div data-aos="fade-left" style={{ marginLeft: '20px' }}>
+            <div data-aos="fade-left">
               <div className="justify-content-center">
                 {/* <video src={appData.Clik-Feeda}></video> */}
                 <video width={250} muted autoPlay loop>
