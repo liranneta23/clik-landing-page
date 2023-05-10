@@ -1,4 +1,5 @@
 import logo from "../public/Clik-Logo.jpg";
+import getOnPlayStore from "../public/getOnPlayStore.png";
 import feed from "../public/feed.PNG";
 import leaf from "../public/leaf.PNG";
 import supporters from "../public/supporters.PNG";
@@ -10,6 +11,7 @@ import allInOne from "../public/AllInOne.png";
 
 export const appData = {
   logo: logo,
+  getOnPlayStore,
   feed,
   leaf,
   supporters,

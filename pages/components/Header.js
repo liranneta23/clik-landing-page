@@ -54,7 +54,17 @@ const Header = () => {
                 and 
                 <Link href="https://apps.apple.com/app/clik/id1659726779">
                   <a> <strong>App Store</strong></a>
-                </Link>              
+                </Link>
+
+              <Link href="https://play.google.com/store/apps/details?id=com.clik.platform">
+                <Image
+                  src={appData.getOnPlayStore}
+                  width={135}
+                  height={80}
+                  objectFit="contain"
+                />
+              </Link>
+     
              
             </div>
           </Col>
