@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React, { useEffect, useState  } from "react";
 import Link from "next/link";
 
 import { Col, Container, Form, Row } from "react-bootstrap";
@@ -16,12 +16,30 @@ import en from "../../public/locales/en";
 import nl from "../../public/locales/nl";
 
 const Header = () => {
+
+  const [screenDimensions, setScreenDimensions] = useState({ width: 0, height: 0 });
+
   useEffect(() => {
     AOS.init({ duration: 1500 });
+
+    const handleResize = () => {
+      setScreenDimensions({ width: window.innerWidth, height: window.innerHeight });
+    };
+
+    // Update screen dimensions on component mount
+    handleResize();
+
+    // Update screen dimensions on window resize
+    window.addEventListener('resize', handleResize);
+
+    // Clean up event listener on component unmount
+    return () => window.removeEventListener('resize', handleResize);
+
   }, []);
 
   const router = useRouter();
   console.log(router);
+  console.log(screenDimensions);
   const {locale} = router;
   const t = locale === 'en'? en : nl; 
 
